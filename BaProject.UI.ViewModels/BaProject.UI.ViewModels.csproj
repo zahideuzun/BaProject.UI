@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BaProject.Core">
+      <HintPath>..\..\BaProjectCore\BaProject.Core\bin\Debug\net5.0\BaProject.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

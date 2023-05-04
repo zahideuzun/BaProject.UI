@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BaProject.UI.ViewModels\BaProject.UI.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BaProject.Core">
+      <HintPath>..\..\BaProjectCore\BaProject.Core\bin\Debug\net5.0\BaProject.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BaProject.Validation">
+      <HintPath>..\..\BaProjectCore\BaProject.Validation\bin\Debug\net5.0\BaProject.Validation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
